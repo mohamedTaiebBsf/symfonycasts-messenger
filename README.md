@@ -24,3 +24,7 @@ Link to Tuto:
     ```
     php bin/console s:r
     ```
+6. Run the worker :
+    ```
+    php bin/console messenger:consume -vv async
+    ```
